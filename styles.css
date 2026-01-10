@@ -524,6 +524,7 @@ b {
   width: 34px;
   height: 34px;
   cursor: pointer;
+  z-index: 1;
 }
 
 @media (max-width: 900px) {
