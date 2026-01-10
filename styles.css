@@ -372,6 +372,28 @@ a {
   gap: 10px;
 }
 
+.gallery > .gallery-item:nth-child(n + 9) {
+  display: none;
+}
+
+.gallery-page .gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gallery-more-wrap {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-more {
+  display: none;
+}
+
+.gallery-load {
+  margin-top: 26px;
+}
+
 .gallery-item {
   border: 1px solid rgba(231, 223, 241, 0.8);
   border-radius: 10px;
@@ -570,5 +592,9 @@ b {
 
   .gallery-item {
     min-height: 110px;
+  }
+
+  .gallery > .gallery-item:nth-child(n + 9) {
+    display: block;
   }
 }
