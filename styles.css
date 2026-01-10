@@ -340,22 +340,16 @@ a {
 }
 
 .info-thumb {
-  height: 140px;
   border-radius: 22px;
   border: 1px dashed rgba(231, 223, 241, 0.9);
-  display: grid;
-  place-items: center;
-  color: var(--muted);
-  font-weight: 600;
   background: #ffffff;
+  overflow: hidden;
 }
 
-.info-thumb svg {
-  width: 64px;
-  height: 64px;
-  stroke: var(--accent);
-  stroke-width: 2;
-  fill: none;
+.info-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .info-card h3 {
