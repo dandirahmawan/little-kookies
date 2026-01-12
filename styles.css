@@ -372,7 +372,7 @@ a {
   gap: 10px;
 }
 
-.gallery > .gallery-item:nth-child(n + 9) {
+.gallery:not(.gallery-full) > .gallery-item:nth-child(n + 9) {
   display: none;
 }
 
@@ -594,7 +594,7 @@ b {
     min-height: 110px;
   }
 
-  .gallery > .gallery-item:nth-child(n + 9) {
+  .gallery:not(.gallery-full) > .gallery-item:nth-child(n + 9) {
     display: block;
   }
 }
